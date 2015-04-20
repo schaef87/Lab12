@@ -19,7 +19,10 @@ void print_help();
 
 int main()
 {
-                                         // <-------------------------- construct a weighted graph called "testGraph" with an appropriate max number of vertices
+    // construct a weighted graph called "testGraph" with an appropriate max number of vertices
+	//our code goes here.
+	WeightedGraph testGraph(8);
+
     WeightedGraph::Vertex testVertex;            // Vertex
     string v1,
          v2;   // Vertex labels
